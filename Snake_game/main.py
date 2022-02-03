@@ -1,5 +1,7 @@
 import time
 from turtle import Screen, Turtle
+
+from scoreboard import Scoreboard
 from snake import Snake
 import random
 from food import Food
@@ -19,14 +21,16 @@ screen.onkey(snake.down, 'Down')
 screen.onkey(snake.left, 'Left')
 screen.onkey(snake.right, 'Right')
 
+
 game_state_is_on = True
 food = Turtle("circle")
 food.penup()
-food.goto(random.randint(-300, 300), random.randint(-300, 300))
+food.goto(random.randint(-298, 298), random.randint(-298, 298))
 food.color("red")
 
 
 while game_state_is_on:
+    scoreboard = Scoreboard(snake.get_segments())
     screen.update()
     time.sleep(0.2)
     snake.move()
@@ -39,7 +43,7 @@ while game_state_is_on:
         snake.add_segment()
         food.goto(random.randint(-250, 250), random.randint(-250, 250))
     for i in snake.segments[1:]:
-        if snake.head.pos() == i.pos():
+        if snake.head.distance(i) < 10:
             game_state_is_on = False
 
 
