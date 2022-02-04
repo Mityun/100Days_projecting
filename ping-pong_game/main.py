@@ -29,6 +29,17 @@ while game_state_is_on:
 
     # detecting collision with wall
     if ball.ycor() > 280 or ball.ycor() < -280:
-        ball.bounce()
+        ball.bounce_y()
+
+    # collision with the right paddle
+    if ball.distance(paddle_r) < 60 and ball.xcor() > 330 or ball.distance(paddle_l) <= 60 and ball.xcor() < -330:
+        ball.bounce_x()
+
+    # ball hit right or left part of screen = sbd lost
+    if ball.xcor() > 380 or ball.xcor() < -380:
+        ball.color("black")
+        screen.update()
+        time.sleep(3)
+        ball = Ball()
 
 screen.exitonclick()
