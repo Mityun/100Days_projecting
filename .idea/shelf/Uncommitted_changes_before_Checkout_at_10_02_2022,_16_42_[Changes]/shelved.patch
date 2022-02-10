@@ -1,0 +1,345 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"0c5b183f-659d-4912-b320-2c70b6f97a33\" name=\"Changes\" comment=\"create ball class and made it react to bouncing with wall\">\n      <change beforePath=\"$PROJECT_DIR$/ping-pong_game/ball_class.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ping-pong_game/ball_class.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/ping-pong_game/main.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ping-pong_game/main.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/ping-pong_game/paddle_class.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ping-pong_game/paddle_class.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"ping-pong_game\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"24VupTCWWWEfJvw6BzEwYTGbmVO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"compactDirectories\" value=\"true\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"coverage\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Snake_game\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Python.main (1)\">\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3.8\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"main (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3.8\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/ping-pong_game\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/ping-pong_game/main.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3.8\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.main (1)\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"0c5b183f-659d-4912-b320-2c70b6f97a33\" name=\"Changes\" comment=\"\" />\n      <created>1643728258403</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1643728258403</updated>\n      <workItem from=\"1643728262358\" duration=\"22758000\" />\n      <workItem from=\"1643895409899\" duration=\"8326000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"made snake pieces move together as single body\">\n      <created>1643783842427</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1643783842427</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"added key listener, but it doesn't work idk why\">\n      <created>1643791445785</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1643791445785</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"done.\">\n      <created>1643817370330</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1643817370330</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"done.\">\n      <created>1643881460526</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1643881460526</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"new brunch for ping_pong\">\n      <created>1643881531083</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1643881531083</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"created a background and two moving paddles\">\n      <created>1643899282526</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1643899282526</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"create ball class and made it react to bouncing with wall\">\n      <created>1643964235984</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1643964235985</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"made snake pieces move together as single body\" />\n    <MESSAGE value=\"added key listener, but it doesn't work idk why\" />\n    <MESSAGE value=\"done.\" />\n    <MESSAGE value=\"new brunch for ping_pong\" />\n    <MESSAGE value=\"created a background and two moving paddles\" />\n    <MESSAGE value=\"create ball class and made it react to bouncing with wall\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"create ball class and made it react to bouncing with wall\" />\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/100Days_projecting$main__1_.coverage\" NAME=\"main (1) Coverage Results\" MODIFIED=\"1643966485857\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/ping-pong_game\" />\n    <SUITE FILE_PATH=\"coverage/100Days_projecting$main.coverage\" NAME=\"main Coverage Results\" MODIFIED=\"1643962878549\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,10 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0c5b183f-659d-4912-b320-2c70b6f97a33" name="Changes" comment="create ball class and made it react to bouncing with wall">
++    <list default="true" id="25d5395a-8379-4635-8e0f-566879a9e18d" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/ping-pong_game/scoreboard.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ping-pong_game/ball_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/ping-pong_game/ball_class.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ping-pong_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ping-pong_game/main.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ping-pong_game/paddle_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/ping-pong_game/paddle_class.py" afterDir="false" />
+@@ -14,73 +13,16 @@
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+-  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="ping-pong_game" />
++        <entry key="$PROJECT_DIR$" value="main" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitSEFilterConfiguration">
+-    <file-type-list>
+-      <filtered-out-file-type name="LOCAL_BRANCH" />
+-      <filtered-out-file-type name="REMOTE_BRANCH" />
+-      <filtered-out-file-type name="TAG" />
+-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+-    </file-type-list>
+-  </component>
+-  <component name="MarkdownSettingsMigration">
+-    <option name="stateVersion" value="1" />
+-  </component>
+-  <component name="ProjectId" id="24VupTCWWWEfJvw6BzEwYTGbmVO" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectViewState">
+-    <option name="compactDirectories" value="true" />
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="settings.editor.selected.configurable" value="coverage" />
+-  </component>
+-  <component name="RecentsManager">
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/Snake_game" />
+-    </key>
+-  </component>
+-  <component name="RunManager" selected="Python.main (1)">
+-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+-      <option name="WORKING_DIRECTORY" value="" />
+-      <option name="IS_MODULE_SDK" value="false" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <module name="" />
+-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
++  <component name="RunManager">
+     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -103,100 +45,15 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="false" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <module name="" />
+-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+     <recent_temporary>
+       <list>
+         <item itemvalue="Python.main (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="0c5b183f-659d-4912-b320-2c70b6f97a33" name="Changes" comment="" />
+-      <created>1643728258403</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1643728258403</updated>
+-      <workItem from="1643728262358" duration="22758000" />
+-      <workItem from="1643895409899" duration="8326000" />
+-    </task>
+-    <task id="LOCAL-00001" summary="made snake pieces move together as single body">
+-      <created>1643783842427</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1643783842427</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="added key listener, but it doesn't work idk why">
+-      <created>1643791445785</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1643791445785</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="done.">
+-      <created>1643817370330</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1643817370330</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="done.">
+-      <created>1643881460526</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1643881460526</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="new brunch for ping_pong">
+-      <created>1643881531083</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1643881531083</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="created a background and two moving paddles">
+-      <created>1643899282526</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1643899282526</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="create ball class and made it react to bouncing with wall">
+-      <created>1643964235984</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1643964235985</updated>
+-    </task>
+-    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+@@ -208,17 +65,8 @@
+       </map>
+     </option>
+   </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="made snake pieces move together as single body" />
+-    <MESSAGE value="added key listener, but it doesn't work idk why" />
+-    <MESSAGE value="done." />
+-    <MESSAGE value="new brunch for ping_pong" />
+-    <MESSAGE value="created a background and two moving paddles" />
+-    <MESSAGE value="create ball class and made it react to bouncing with wall" />
+-    <option name="LAST_COMMIT_MESSAGE" value="create ball class and made it react to bouncing with wall" />
+-  </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+-    <SUITE FILE_PATH="coverage/100Days_projecting$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1643966485857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ping-pong_game" />
++    <SUITE FILE_PATH="coverage/100Days_projecting$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1643968473758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ping-pong_game" />
+     <SUITE FILE_PATH="coverage/100Days_projecting$main.coverage" NAME="main Coverage Results" MODIFIED="1643962878549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ping-pong_game/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from turtle import Turtle, Screen\nimport time\nfrom paddle_class import *\nfrom ball_class import *\n\n\nscreen = Screen()\nscreen.setup(width=800, height=600)\nscreen.bgcolor(\"black\")\nscreen.title(\"Pong yeeeeah\")\nscreen.tracer(0)\n\npaddle_r = Paddle(350, 0)\npaddle_l = Paddle(-350, 0)\nball = Ball()\n\n\nscreen.listen()\nscreen.onkey(paddle_r.up, \"Up\")\nscreen.onkey(paddle_r.down, \"Down\")\nscreen.onkey(paddle_l.up, \"w\")\nscreen.onkey(paddle_l.down, \"s\")\n\ngame_state_is_on = True\nwhile game_state_is_on:\n    time.sleep(0.02)\n    screen.update()\n    ball.move()\n\n    # detecting collision with wall\n    if ball.ycor() > 280 or ball.ycor() < -280:\n        ball.bounce_y()\n\n    # collision with the right paddle\n    if ball.distance(paddle_r) < 60 and ball.xcor() > 330 or ball.distance(paddle_l) <= 60 and ball.xcor() < -330:\n        ball.bounce_x()\n\n    # ball hit right or left part of screen = sbd lost\n    if ball.xcor() > 380 or ball.xcor() < -380:\n        ball.color(\"black\")\n        screen.update()\n        time.sleep(3)\n        ball = Ball()\n\nscreen.exitonclick()
+===================================================================
+diff --git a/ping-pong_game/main.py b/ping-pong_game/main.py
+--- a/ping-pong_game/main.py	
++++ b/ping-pong_game/main.py	
+@@ -2,6 +2,7 @@
+ import time
+ from paddle_class import *
+ from ball_class import *
++from scoreboard import *
+ 
+ 
+ screen = Screen()
+@@ -13,6 +14,7 @@
+ paddle_r = Paddle(350, 0)
+ paddle_l = Paddle(-350, 0)
+ ball = Ball()
++board = Scoreboard()
+ 
+ 
+ screen.listen()
+@@ -31,15 +33,18 @@
+     if ball.ycor() > 280 or ball.ycor() < -280:
+         ball.bounce_y()
+ 
+-    # collision with the right paddle
++    # collision with paddles
+     if ball.distance(paddle_r) < 60 and ball.xcor() > 330 or ball.distance(paddle_l) <= 60 and ball.xcor() < -330:
+         ball.bounce_x()
++        if ball.distance(paddle_r) < 60 and ball.xcor() > 330:
++            board.add_right()
++        if ball.distance(paddle_l) < 60 and ball.xcor() < -330:
++            board.add_left()
+ 
+     # ball hit right or left part of screen = sbd lost
+     if ball.xcor() > 380 or ball.xcor() < -380:
+-        ball.color("black")
++        ball.reset()
+         screen.update()
+         time.sleep(3)
+-        ball = Ball()
+ 
+ screen.exitonclick()
+\ No newline at end of file
+Index: ping-pong_game/ball_class.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from turtle import *\nimport random\n\n\nclass Ball(Turtle):\n    def __init__(self):\n        super().__init__()\n        self.color(\"red\")\n        self.shape(\"circle\")\n        self.penup()\n        self.x_rand_start = random.choice([-5, 5])\n        self.y_rand_start = random.choice([-5, 5])\n        self.x_move = self.x_rand_start\n        self.y_move = self.y_rand_start\n\n    def move(self):\n        new_x = self.xcor() + self.x_move\n        new_y = self.ycor() + self.y_move\n        self.goto(new_x, new_y)\n\n    def bounce_y(self):\n        self.y_move *= -1\n\n    def bounce_x(self):\n        self.x_move *= -1\n
+===================================================================
+diff --git a/ping-pong_game/ball_class.py b/ping-pong_game/ball_class.py
+--- a/ping-pong_game/ball_class.py	
++++ b/ping-pong_game/ball_class.py	
+@@ -8,18 +8,21 @@
+         self.color("red")
+         self.shape("circle")
+         self.penup()
+-        self.x_rand_start = random.choice([-5, 5])
+-        self.y_rand_start = random.choice([-5, 5])
+-        self.x_move = self.x_rand_start
+-        self.y_move = self.y_rand_start
++        self.__x_rand_start = random.choice([-5, 5])
++        self.__y_rand_start = random.choice([-5, 5])
++        self.__x_move = self.__x_rand_start
++        self.__y_move = self.__y_rand_start
+ 
+     def move(self):
+-        new_x = self.xcor() + self.x_move
+-        new_y = self.ycor() + self.y_move
++        new_x = self.xcor() + self.__x_move
++        new_y = self.ycor() + self.__y_move
+         self.goto(new_x, new_y)
+ 
+     def bounce_y(self):
+-        self.y_move *= -1
++        self.__y_move *= -1
+ 
+     def bounce_x(self):
+-        self.x_move *= -1
++        self.__x_move *= -1
++
++    def reset(self):
++        self.goto(0, 0)
+Index: ping-pong_game/paddle_class.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from turtle import Turtle\n\n\nclass Paddle(Turtle):\n    def __init__(self, x_cor, y_cor):\n        self.x_cor = x_cor\n        self.y_cor = y_cor\n        super().__init__()\n        self.shape(\"square\")\n        self.penup()\n        self.shapesize(5, 1)\n        self.color(\"white\")\n        self.goto(self.x_cor, self.y_cor)\n\n    def up(self):\n        if self.y_cor <= 270:\n            self.y_cor += 30\n            self.goto(self.x_cor, self.y_cor)\n\n    def down(self):\n        if self.y_cor >= -270:\n            self.y_cor -= 30\n            self.goto(self.x_cor, self.y_cor)\n
+===================================================================
+diff --git a/ping-pong_game/paddle_class.py b/ping-pong_game/paddle_class.py
+--- a/ping-pong_game/paddle_class.py	
++++ b/ping-pong_game/paddle_class.py	
+@@ -2,22 +2,22 @@
+ 
+ 
+ class Paddle(Turtle):
+-    def __init__(self, x_cor, y_cor):
+-        self.x_cor = x_cor
+-        self.y_cor = y_cor
++    def __init__(self, x_cor: int, y_cor: int):
++        self.__x_cor = x_cor
++        self.__y_cor = y_cor
+         super().__init__()
+         self.shape("square")
+         self.penup()
+         self.shapesize(5, 1)
+         self.color("white")
+-        self.goto(self.x_cor, self.y_cor)
++        self.goto(self.__x_cor, self.__y_cor)
+ 
+     def up(self):
+-        if self.y_cor <= 270:
+-            self.y_cor += 30
+-            self.goto(self.x_cor, self.y_cor)
++        if self.__y_cor <= 270:
++            self.__y_cor += 30
++            self.goto(self.__x_cor, self.__y_cor)
+ 
+     def down(self):
+-        if self.y_cor >= -270:
+-            self.y_cor -= 30
+-            self.goto(self.x_cor, self.y_cor)
++        if self.__y_cor >= -270:
++            self.__y_cor -= 30
++            self.goto(self.__x_cor, self.__y_cor)

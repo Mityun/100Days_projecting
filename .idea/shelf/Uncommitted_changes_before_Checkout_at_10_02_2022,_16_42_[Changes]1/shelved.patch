@@ -1,0 +1,25 @@
+Index: ping-pong_game/scoreboard.py
+===================================================================
+diff --git a/ping-pong_game/scoreboard.py b/ping-pong_game/scoreboard.py
+new file mode 100644
+--- /dev/null	
++++ b/ping-pong_game/scoreboard.py	
+@@ -0,0 +1,18 @@
++from turtle import(Turtle)
++
++
++class Scoreboard(Turtle):
++    def __init__(self):
++        super().__init__()
++        self.color("white")
++        self.penup()
++        self.hideturtle()
++        self.__l_score = 0
++        self.__r_score = 0
++        self.write(f"{self.__l_score} : {self.__r_score}", align="center", font=("Courier", 80, "normal"))
++
++    def add_left(self):
++        self.l_score += 1
++
++    def add_right(self):
++        self.r_score += 1
